@@ -1,0 +1,360 @@
+<!DOCTYPE html>>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyForm</title>
+</head>
+<body>
+<body>
+<form name="form1" method="post" action="StuCardBase.aspx?v=" id="form1">
+    <div>
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMxOTc1MDg3NA9kFgICAQ9kFgQCAg8WAh4JaW5uZXJodG1sBQc8UD48L1A+ZAITDxYCHgdWaXNpYmxlaGRkhBYLHNi/VBsMTuEEnJ+mN9V94Po=">
+    </div>
+    <div>
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F5A969DF">
+        <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWGgL3uoFwAoW3tr4GAomY0aUMAomYhZEMAs6u4O0LAqXzrfEEAvPj4eEOAsKys/oFAqOJqLgOAsnMtaAEAtHzpskFAqKN6YcFAqy3yIMHAtOTh+UDAp/b074NAp6bq6QIAvb+5/IKApCgl/IPAqD9o9gKApi2/+0BAtmWx6IEAsGfiPsPArXh844KApy3uJIMAq7Ht9ICAoKlt50OGTtUKyVwZbNLXQjbLIiDHw2Miks=">
+    </div>
+
+    <div class="header">
+        <div class="headertop">
+            <span style="width:60px;"><a href="http://www.cmbchina.com/" target="_blank">一网通主站</a></span>
+            <span style="color:#dedede; width:8px;">|</span>
+            <span><a href="http://creditcard.cmbchina.com/" target="_blank">信用卡网站</a></span>
+            <ul>
+                <li><a href="http://map.cmbchina.com/" target="_blank">营业网点</a></li>
+                <li class="gap">|</li>
+                <li><a href="http://creditcard.cmbchina.com/contact/" target="_blank">客服信箱</a></li>
+                <li class="gap">|</li>
+                <li><a href="http://career.cmbchina.com/cmbcareer/" target="_blank">加入我们</a></li>
+                <li class="clearfloat"></li>
+            </ul>
+            <div class="clearfloat"></div>
+        </div>
+        <div class="headerlogo">
+            <a href="http://www.cmbchina.com/" target="_blank" style="text-decoration:none; font-size:0;">
+                <img alt="logo" src="./images/cca_logo.jpg" width="437px" height="95px" border="0"></a>
+        </div>
+        <input name="Header1$hidBCC" type="hidden" id="Header1_hidBCC" value="N">
+        <input name="Header1$hidBaseMCAUrl" type="hidden" id="Header1_hidBaseMCAUrl">
+        <input name="Header1$hidBasePCAUrl" type="hidden" id="Header1_hidBasePCAUrl">
+    </div>
+    <div class="maincon">
+        <p class="contop">
+            恭喜您顺利完成第一步！<br>
+        </p>
+
+        <div class="innernav">
+            <span class="step1">填写基本信息</span>
+            <span class="stepgap"></span>
+            <span class="selstep2"> 完善个人信息并提交 </span>
+            <div class="clear"></div>
+        </div>
+        <div id="cardactivityp" class="homegift"><p></p></div>
+        <div class="cardsel" style="overflow:visible;">
+
+            <div class="cardselleft">
+                <p style="margin:5px 0 0;font-size: 14px;color:#333;">您已选择的信用卡：</p>
+                <div class="cardimg" id="cardimg">
+
+                    <div style="border:1px solid #DADADA;margin-top:10px;padding:8px 8px;width:160px;font-size:12px;text-align: center;">
+                        银联普卡
+                        <img alt="" width="158px" title="QQ手游李白卡校园版 银联卡" style="margin-top:5px;" height="100px;" id="img_0" src="https://file.cmbchina.com/crdcardapply/App/2230_UC.gif">
+                    </div>
+
+
+                </div>
+                <div class="leftoldclienttip" id="leftoldclienttip1" style="display: none;">
+                    <p>温馨提示：</p>
+                    <p>1.客户申请附属卡需在官方网页填写相关信息，同时上传附属卡人身份影像。</p>
+                    <p>2.已持主卡客户再次申请其他金、普级别的卡片，<span>信用额度不变</span>。</p>
+                    <p id="customcardtop" style="display:none;">3.<b id="kaid1" style="font-weight:normal;">珍藏版卡片申请成功即收取50元/卡制卡费。</b></p>
+                </div>
+                <div class="leftoldclienttip" id="leftoldclienttip2" style="display: none;">
+                    <p>温馨提示：</p>
+                    <p>1.已持主卡客户再次申请其他金、普级别的卡片，<span>信用额度不变</span>。</p>
+                    <p id="customcardbot" style="display:none;">2.<b id="kaid2" style="font-weight:normal;">珍藏版卡片申请成功即收取50元/卡制卡费。</b></p>
+                </div>
+                <input name="CardShowNew$isOldClient" type="hidden" id="CardShowNew_isOldClient">
+                <input name="CardShowNew$isCustomCard" type="hidden" id="CardShowNew_isCustomCard" value="0">
+                <input name="CardShowNew$customArrindex" type="hidden" id="CardShowNew_customArrindex" value="0">
+            </div>
+            <div class="cardselright" style="background-color: #FFF; height: auto;">
+                <div style="margin: 5px 0 0 5px;">
+                    <div class="tbcon" style="overflow:visible;">
+                        <div class="tbconcell">
+                            <div class="tdleft">
+                                <span>*</span>手机号码：</div>
+                            <div class="tdmid">
+                                <input name="tbxMobile" type="text" id="tbxMobile" class="tbinput" maxlength="11"></div>
+                            <div class="tdright">
+                                <span id="stbxMobile"></span>
+                            </div>
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div id="trNeedNewSMS" class="tbconcell">
+                            <div class="tdleft">
+                                <span>*</span>短信验证码：</div>
+                            <div class="tdmid">
+                                <input name="tbxSMSCode" type="text" id="tbxSMSCode" class="tbinput" maxlength="6" style="width: 90px; color: rgb(153, 153, 153);">
+                                <input type="button" id="btnNewSendSMS" value="获取验证码" class="btnsendsms" onclick="SMSCodeCheck()">
+                            </div>
+                            <div class="tdright">
+                                <span id="stbxSMSCode"></span>
+                            </div>
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div class="tbcontip" id="SMSSendTip" style="display: none;">
+                            &nbsp;<div>
+                            验证码已发送，1分钟后可重新获取。</div>
+                        </div>
+                        <div class="tbconcell">
+                            <div class="tdleft"><i style="border-bottom:none;" data_tip="姓与名之间请以空格分开。如填写英文姓名，请按护照内容以大写字母填写。"><span>*</span>拼音/英文姓名</i>：</div>
+                            <div class="tdmid"><input name="tbUserNameEn" type="text" id="tbUserNameEn" class="tbinput" maxlength="24" value="LIU ZEYU"></div>
+                            <div class="tdright"><span id="stbUserNameEn"><img alt="ok" src="./images/right.gif" width="17px" height="17px" border="0" style="margin-top:4px;"></span></div>
+                            <div class="clear"> </div>
+                        </div>
+                        <div class="tbconcell" style="overflow:visible;z-index:1;">
+                            <div class="tdleft">
+                                <span>*</span>在读学校名称：</div>
+                            <div class="tdmid" style="z-index:1;">
+                                <div id="schdiv" style="position: relative;outline: 0;z-index:2;" tabindex="0">
+                                    <input name="tbxSchoolName" type="text" id="tbxSchoolName" class="tbinput" maxlength="24" autocomplete="off">
+                                    <div id="schlist" style="display:none;" tabindex="0">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tdright">
+                                <span id="stbxSchoolName"></span>
+                            </div>
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div class="tbcontip">
+                            &nbsp;<div>
+                            （若您已工作，请<a href="http://ccclub.cmbchina.com/ccproduct/newcustomer.aspx" style="color: #009AFF;
+                                    text-decoration: underline;">点击此处</a>）</div>
+                        </div>
+                        <div class="tbconcell" style="overflow:visible;height:auto;">
+                            <div class="tdleft">
+                                <span>*</span>学校地址：</div>
+                            <div class="tdmid">
+                                <div class="addrdiv">
+                                    <div id="addrtitle" tabindex="0" class="addrtitle">请选择省市区</div>
+                                    <div class="seldropdown"></div>
+                                    <div class="addrarea" id="addrarea">
+                                        <div class="seltab" id="seltab">
+                                            <a class="current" data-index="0">省份</a>
+                                            <a data-index="1">城市</a>
+                                            <a data-index="2">县区</a>
+                                        </div>
+                                        <div class="selcontent" id="selcontent">
+                                            <div class="city-select" tabindex="0" id="prov" style="display:block;"><dl id="provrec"><dt>推荐</dt><dd></dd></dl><dl><dt>A-G</dt><dd><a title="A 安徽省" data-index="0">安徽省</a><a title="B 北京市" data-index="1">北京市</a><a title="C 重庆市" data-index="2">重庆市</a><a title="F 福建省" data-index="3">福建省</a><a title="G 广东省" data-index="4">广东省</a><a title="G 贵州省" data-index="5">贵州省</a><a title="G 广西" data-index="6">广西</a><a title="G 甘肃省" data-index="7">甘肃省</a></dd></dl><dl><dt>H-K</dt><dd><a title="H 河北省" data-index="8">河北省</a><a title="H 河南省" data-index="9">河南省</a><a title="H 湖北省" data-index="10">湖北省</a><a title="H 湖南省" data-index="11">湖南省</a><a title="H 海南省" data-index="12">海南省</a><a title="H 黑龙江省" data-index="13">黑龙江省</a><a title="J 江苏省" data-index="14">江苏省</a><a title="J 吉林省" data-index="15">吉林省</a><a title="J 江西省" data-index="16">江西省</a></dd></dl><dl><dt>L-S</dt><dd><a title="L 辽宁省" data-index="17">辽宁省</a><a title="N 内蒙古" data-index="18">内蒙古</a><a title="N 宁夏" data-index="19">宁夏</a><a title="Q 青海省" data-index="20">青海省</a><a title="S 上海市" data-index="21">上海市</a><a title="S 四川省" data-index="22">四川省</a><a title="S 山东省" data-index="23">山东省</a><a title="S 陕西省" data-index="24">陕西省</a><a title="S 山西省" data-index="25">山西省</a></dd></dl><dl><dt>T-Z</dt><dd><a title="T 天津市" data-index="26">天津市</a><a title="X 新疆" data-index="27">新疆</a><a title="X 西藏" data-index="28">西藏</a><a title="Y 云南省" data-index="29">云南省</a><a title="Z 浙江省" data-index="30">浙江省</a></dd></dl></div>
+                                            <div class="city-select" tabindex="0" id="city"></div>
+                                            <div class="city-select" tabindex="0" id="district"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input name="hidProv" type="hidden" id="hidProv">
+                                <input name="hidCity" type="hidden" id="hidCity">
+                                <input name="hidRegion" type="hidden" id="hidRegion">
+                                <input name="haskabu" type="hidden" id="haskabu" value="-1">
+                                <input type="hidden" id="SGMflag" value="0">
+                            </div>
+                            <div class="tdright">
+                                <span id="saddrsel"></span>
+                            </div>
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div class="tbconcell" style="overflow:visible;height:auto;">
+                            <div class="tdleft">
+                                &nbsp;</div>
+                            <div class="tdmid">
+                                <div style="position: relative;outline: 0;float: left;">
+                                    <input name="tbxAddrOther" type="text" id="tbxAddrOther" class="tbinput" style="color: #999;
+                                    width: 220px;" value="请填写您具体的学校地址" maxlength="25" autocomplete="off">
+                                    <div id="detaillist" style="display:none;width:222px;" tabindex="0">
+                                    </div>
+                                </div>
+                                <div style="float: left;">
+                                    <input name="tbxAddrOther2" type="text" id="tbxAddrOther2" class="tbinput" style="color: #999;margin-left:6px;
+                                    width: 87px;" value="楼名和房间号" maxlength="15">
+                                    室
+                                </div>
+                            </div>
+                            <div class="tdright">
+                                <span id="stbxAddrOther"></span>
+                            </div>
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div class="tbconcell">
+                            <div class="tdleft">
+                                示例：</div>
+                            <div class="tdmid exampleaddrs">广东省 深圳市 南山区<br>***路***号***校区***号楼***室</div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="nokabu" id="nokabudiv" style="display: none;">
+                            <p id="nokabup">
+                                您申请的区域暂时没有开放申请</p>
+                        </div>
+                        <div class="tbconcell">
+                            <div class="tdleft"><i style="border-bottom:none;" data_tip="如需纸质账单，请您收到卡片后通过网上银行或手机银行进行更改。"><span>*</span>电子邮箱</i>：</div>
+                            <div class="tdmid"><input name="tbxEmail" type="text" id="tbxEmail" style="color:#999;" class="tbinput" onfocus="if (value =='用于接收账单，请务必正确填写'){value =''}" onblur="if (value ==''){value='用于接收账单，请务必正确填写'}" value="用于接收账单，请务必正确填写" autocomplete="off" maxlength="50"></div>
+                            <div class="tdright"><span id="stbxEmail"></span></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="tbconcell">
+                            <div class="tdleft">
+                                <span>*</span>直系亲属联系人：</div>
+                            <div class="tdmid">
+                                <input name="tbxContactName" type="text" id="tbxContactName" class="tbinput" style="color:#999;" maxlength="12" onfocus="if (value =='无需担保责任，请放心填写'){value =''}" onblur="if (value ==''){value='无需担保责任，请放心填写'}" value="无需担保责任，请放心填写"></div>
+                            <div class="tdright">
+                                <span id="stbxContactName"></span>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="tbconcell">
+                            <div class="tdleft">
+                                <span>*</span>联系人手机：</div>
+                            <div class="tdmid">
+                                <input name="tbxContactMobile" type="text" id="tbxContactMobile" class="tbinput" maxlength="11"></div>
+                            <div class="tdright">
+                                <span id="stbxContactMobile"></span>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="tbconcell">
+                            <div class="tdleft">
+                                <span>*</span>预计毕业年月：</div>
+                            <div class="tdmid">
+                                <select id="selgradyear" class="addrsel">
+                                    <option value=""></option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2027">2027</option>
+                                    <option value="2028">2028</option>
+                                    <option value="2029">2029</option>
+                                    <option value="2030">2030</option>
+                                </select>
+                                年
+                                <select id="selgradmonth" class="addrsel">
+                                    <option value=""></option>
+                                </select>
+                                月
+                                <input name="hidgradyear" type="hidden" id="hidgradyear">
+                                <input name="hidgradmonth" type="hidden" id="hidgradmonth">
+                            </div>
+                            <div class="tdright">
+                                <span id="sgradtime"></span>
+                            </div>
+                            <div class="clear">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="ckAgree" style="font-size: 14px; margin-left: 93px;">
+                    <label for="ckAgree">
+                        <input type="checkbox" id="ckAgree" value="0" checked="checked">
+                        我已阅读并清楚知晓<a href="javascript:void(0);" onclick="preObj.ShowRule(); return false;" style="color: #009AFF;">《招商银行信用卡章程》、《招商银行信用卡（个人卡）领用合约》</a>及<br>
+                        &nbsp;&nbsp;&nbsp;该信用卡的相关信息，并愿意遵守各项规则。
+                    </label>
+                </div>
+                <div style="margin: 25px 0 10px 180px;">
+                    <input type="submit" name="btnNext" value="" onclick="javascript:return precontractcheck();" id="btnNext" class="btnsubimg">
+                    <input type="submit" name="btnSave" value="btnSave" id="btnSave" class="nodisplay">
+                    <input name="newExitHiddenInput" type="hidden" id="newExitHiddenInput">
+                    <input type="hidden" id="submitJSChecked" value="1">
+                    <input name="authflag" type="hidden" id="authflag" value="N">
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div style="margin: 30px 0; text-align: center; color: #666">
+            温馨提示：我行将对您的资料，包括身份证号码等进行严格保密，请放心填写。
+        </div>
+    </div>
+    <div id="co">
+        <div class="wangan">
+            <a title="网络安全标志" href="http://www.cmbchina.com/webpages/cmbsafe/index.htm" target="_blank">
+            </a>
+        </div>
+        <div class="gdsz">
+            <a title="网络安全标志" href="http://www.sznet110.gov.cn/netalarm/index.jsp" target="_blank">
+            </a>
+        </div>
+        <div class="copyright">
+            <span>招商银行一网通&nbsp;&nbsp;创建于一九九七年</span>
+            <br>
+            <span>&nbsp;2012&nbsp;&nbsp;招商银行&nbsp;&nbsp;版权所有</span>
+            <br>
+            <span>ICP许可证号&nbsp;&nbsp;粤B2-20040497</span>
+        </div>
+    </div>
+    <div id="maskauth" style="display: none; position: absolute; z-index: 1000; left: 50%;
+        margin-left: -242px; top: 50%; margin-top: -140px; border: solid 2px #4F4F4F;
+        width: 483px; background-color: #DDD; height: 287px;">
+        <div style="margin: 4px auto 0; height: 279px; width: 475px; overflow: hidden; background: #FFF url(./images/authflagbg.png) no-repeat scroll 126px 115px;">
+            <p style="line-height: 30px; font-size: 14px; text-indent: 2em; padding: 16px; margin: 0;
+                color: #3B3B3B; font-weight: bold;">
+                您是否同意并授权招商银行信用卡中心向任何有关方面（包括但不限于中国人民银行个人信用信息基础数据库）了解和查询您的资产、资信、个人信用信息等情况，并保留相关资料，用于信用卡办理业务的预审？</p>
+            <div style="font-size: 14px; font-weight: bold; margin: 35px 0 0 120px;">
+                <label for="authflagY" style="margin-right: 50px;">
+                    <input type="radio" id="authflagY" name="radauthflag" value="Y">
+                    同意授权
+                </label>
+                <label for="authflagN">
+                    <input type="radio" id="authflagN" name="radauthflag" value="N">
+                    不同意授权
+                </label>
+            </div>
+            <div class="sgmrltbtn" id="authflagbtn" style="width: 100px; font-size: 16px; margin: 15px auto 0;
+                cursor: pointer;">
+                <div class="srbleft">
+                </div>
+                <div class="srbright">
+                </div>
+                <span>确 定</span></div>
+        </div>
+    </div>
+</form>
+<div id="bgmask">
+    <iframe id="ifmask" src="blank.htm"></iframe>
+</div>
+<div id="maskiframe" style="display:none;"><iframe id="emailmask" src="blank.htm"></iframe></div>
+<div class="filltip" id="filltip" style="display:none;">
+    <div class="filltipcon">
+        <div class="filltiptop"></div>
+        <div class="filltiptop2"></div>
+        <div id="filltipcon"></div>
+    </div>
+</div>
+<div id="maskcon" style="position: absolute; z-index: 1000; border: solid 1px #878787;
+        left: 0; top: 250px; display: none; width: 350px; height: 220px; background: #fff;
+        margin-left: 120px; margin-top: 55px;">
+    <div class="delaytips">
+        小招正努力地为您加载哟…</div>
+    <div class="goldpig">
+    </div>
+</div>
+</body>
+</body>
+
+</html>
+
